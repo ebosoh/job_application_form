@@ -2,17 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: auto;
+    background-color: brown;
+    
   }
   
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
+    background-color: white;
+    color: black;
+    /*padding: 1em;*/
     text-align: center;
+    height: auto;
   }
   
   main {
     margin: 2em;
+    border: blue;
   }
   
   form {
@@ -42,16 +47,35 @@ body {
     background-color: #333;
     color: #fff;
     cursor: pointer;
+    width: 200px;
+    position: relative;
+    margin-right: 500px;
+    margin-top: 10px;
+    
   }
   
   button[type="submit"]:hover {
-    background-color: #444;
+    background-color: blue;
+    
+    
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
+    background-color: white;
+    color: black;
+    /*padding: 5px;*/
     text-align: center;
   }
+
+  #wraper { width: 800px; margin:  auto;
+    
+    
+  }
+
   
+  
+  
+  
+  
+        
+         
